@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_text_color">#ffffff</color>
+    <color name="primary_text_color_pressed">#000000</color>
+    <color name="primary_text_color_disabled">#80ffffff</color>
+    <color name="secondary_text_color">#000000</color>
+    <color name="secondary_text_color_pressed">#ffffff</color>
+    <color name="secondary_text_color_disabled">#80000000</color>
+    <color name="tertiary_text_color">#808080</color>
+    <color name="tertiary_text_color_pressed">#323232</color>
+    <color name="tertiary_text_color_disabled">#80bebebe</color>
+    <color name="transparent">#00000000</color>
+    <color name="page_background">#fff5f5f5</color>
+    <color name="darkgray">@android:color/darker_gray</color>
+    <color name="color_forget_pwd">#ff9c00</color>
+    <color name="home_item_color">#959595</color>
+    <color name="color_store_options_item">#d0cece</color>
+    <color name="darkgray3">#505050</color>
+    <color name="color_black">@android:color/black</color>
+    <color name="header_grid">#576c89</color>
+    <color name="common_menu_item_focus">#c2c2c2</color>
+    <color name="odd_item">#FFFFFF</color>
+    <color name="even_item">#f3f3f3</color>
+    <color name="red">#c20001</color>
+    <color name="red_q">#FF0000</color>
+    <color name="color_change_to_offline">#ff4400</color>
+    <color name="color_tv_text_tips">#808080</color>
+    
+    <color name="color_user_center">#1e1e20</color>
+    <color name="color_speech_color">#ccffffff</color>
+    <color name="color_city_letter">#6a737d</color>
+    <color name="color_shop_checking">#f5d400</color>
+    <!-- <color name="color_nav_right_btn">#585858</color> -->
+    <color name="color_nav_right_btn">#ffd700</color>
+    <color name="color_nav_bar">#ffd700</color>
+    <color name="color_setting_text">#555555</color>
+    <color name="color_edit_text_hint">#cccccc</color>
+    <color name="color_control_panel_item">#c6c6c6</color>
+    <color name="color_control_panel_grey">#949494</color>
+    <color name="color_detail_more">#F99C48</color>
+    
+    <color name="white">#ffffff</color>
+    <color name="gold">#b89766</color>
+    <color name="color_defeat">#fff000</color>
+    <color name="color_home_group">#fed61d</color>
+    <color name="color_store_goods_type">#f1f1f1</color>
+    <color name="color_store_goods_type_line">#dedede</color>
+    <color name="color_store_goods_name">#ff6600</color>
+    <color name="color_index_grey">#c5c5c5</color>
+    <color name="color_home_banner">#fee100</color>
+    <color name="color_dim_grey">#555555</color>
+    
+    <color name="color_sht_store_comment_num">#ff9c00</color>
+    <color name="color_sht_store_dial_num">#ffd700</color>
+    <color name="color_sht_store_horizontal_line">#e6e6e6</color>
+    <color name="color_item_selected">#fffde5</color>
+    <color name="color_store_price">#f26430</color>
+    <color name="color_video">#f3ffffff</color>
+    <color name="color_user_file_exit">#f08978</color>
+    <color name="color_switch_community">#ffd700</color>
+    <!-- 中部banner细线的值 -->
+    <color name="color_middle_banner_line">#cccccc</color>
+
+
+    <color name="text_normal">#878787</color>
+    <color name="text_select">#37ab14</color>
+</resources>

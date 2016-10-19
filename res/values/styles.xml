@@ -1,0 +1,337 @@
+<resources>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Activity_Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="DefaultDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+        <!-- <item name="android:background">@drawable/dialog_background</item> -->
+    </style>
+
+    <style name="DefaultListView">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dip</item>
+    </style>
+
+    <style name="DefaultListView2">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:divider">@drawable/icon_home_line</item>
+        <item name="android:dividerHeight">1dip</item>
+    </style>
+
+    <!--
+    <style name="main_toolbar_item">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tab_item_text_color_selector</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_item_background_selector</item>
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    -->
+
+    <style name="TitleTextAppearance">
+        <item name="android:textColor">#4D4D4D</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="YellowButtonTextAppearance">
+        <item name="android:textColor">#4D4D4D</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="AlertDilagButtonTextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="RedButtonTextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="GrayButtonTextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="PrimaryText"> <!-- 0.2 White -->
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="PrimaryText.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="PrimaryText.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SecondaryText"> <!-- 0.333... White -->
+        <item name="android:textColor">#555555</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FifteenText"> <!-- 0.333... White -->
+        <item name="android:textColor">#555555</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="SecondaryText.Tiny">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="SecondaryText.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="SecondaryText.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TertiaryText"> <!-- 0.4 White -->
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TertiaryText.Tiny">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TertiaryText.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="FourthText"> <!-- 0.5 White -->
+        <item name="android:textColor">#808080</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FourthText.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="FifthText"> <!-- 0.7 White -->
+        <item name="android:textColor">#b2b2b2</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="WhiteText">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorHighlight">#FFFF9200</item>
+        <item name="android:textColorHint">#808080</item>
+        <item name="android:textColorLink">#5C5CFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="WhiteText.Tiny">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="WhiteText.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="WhiteText.Large">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="WhiteText.Huge">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="BlackText">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHighlight">#FF9200</item>
+        <item name="android:textColorHint">#808080</item>
+        <item name="android:textColorLink">#0000EE</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="BlackText.Tiny">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="BlackText.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BlackText.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="BlackText.Huge">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="GrayText">
+        <item name="android:textColor">#808080</item>
+        <item name="android:textColorHighlight">#FF9200</item>
+        <item name="android:textColorHint">#808080</item>
+        <item name="android:textColorLink">#0000EE</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="GrayText.Tiny">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="GrayText.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="GrayText.Large">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="GrayText.Huge">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!--
+    <style name="Text" />
+
+    <style name="Text.primaryTitle" parent="@style/Text">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+
+    <style name="Text.secondaryTitle" parent="@style/Text">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff4d4d4d</item>
+    </style>
+
+    <style name="Text.primaryListTitle" parent="@style/Text">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+
+    <style name="Text.secondaryListTitle" parent="@style/Text">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ff6d6d6d</item>
+    </style>
+
+    <style name="Theme.Translucent" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/translucent_background</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    -->
+
+    <style name="myDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="myDialog2" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="DialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="tab_rb_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/darkgray3</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="radioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/icon_home_community_category_line</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="TextSizeCouponDate">
+        <item name="android:textColor">@color/darkgray</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TextSizeCouponName">
+        <item name="android:textColor">@color/darkgray3</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

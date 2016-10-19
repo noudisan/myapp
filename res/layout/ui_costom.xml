@@ -1,0 +1,43 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:noudisan="http://schemas.android.com/apk/res/com.example.activity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomViewActivity" >
+
+    <com.common.custom.CustomView 
+        android:id="@+id/customview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="#FFD700"
+        noudisan:imageSrc="@drawable/clock"
+        noudisan:imageAspectRatio="1.0"
+        noudisan:imageAlpha="0.5"
+        noudisan:imagePaddingLeft="5dp"
+        noudisan:imagePaddingTop="5dp"
+        noudisan:imagePaddingRight="5dp"
+        noudisan:imagePaddingBottom="5dp"
+        noudisan:imageScaleType="center"
+        noudisan:titleText="这是一级标题"
+        noudisan:titleTextSize="30sp"
+        noudisan:titleTextColor="#1E90FF"
+        noudisan:titlePaddingLeft="4dp"
+        noudisan:titlePaddingTop="4dp"
+        noudisan:titlePaddingRight="4dp"
+        noudisan:titlePaddingBottom="4dp"
+        noudisan:subTitleText="这是二级子标题"
+        noudisan:subTitleTextSize="20sp"
+        noudisan:subTitleTextColor="#00FF7F"
+        noudisan:subTitlePaddingLeft="3dp"
+        noudisan:subTitlePaddingTop="3dp"
+        noudisan:subTitlePaddingRight="3dp"
+        noudisan:subTitlePaddingBottom="3dp"/>
+
+    <Button 
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next page"/>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item1"
+        android:showAsAction="never"
+        android:title="System menu">
+    </item>
+	<item
+        android:id="@+id/item2"
+        android:showAsAction="never"
+        android:title="User menu" 
+        android:icon="@drawable/ic_launcher">
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:showAsAction="never"
+        android:title="Intent menu" 
+        android:icon="@drawable/ic_launcher">
+    </item>
+    <group android:id="@+id/group_file" >
+        <item android:id="@+id/menu_save" 
+              android:title="menu group save" />
+        <item android:id="@+id/menu_delete"
+              android:title="menu group delete" />
+    </group>
+    <item android:id="@+id/file"
+          android:title="Sub menus" >
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/sub_menu1"
+                  android:title="Sub menu1" />
+            <item android:id="@+id/sub_menu21"
+                  android:title="Sub menu2" />
+            <item android:id="@+id/sub_menu3"
+                  android:title="Sub menu3" />
+        </menu>
+    </item>
+</menu>
